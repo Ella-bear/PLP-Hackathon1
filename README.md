@@ -1,5 +1,5 @@
 // uploaded a glimpse of my projects portfolio section where each project has a button the green one for abandoned meaning not completed,
-a blue one to show a project is in progress and a green button to show that the project is up and working.
+a blue one to show a project is in progress and a purple button to show that the project is up and working.
 // The details link automatically takes one to the project 
 
 
