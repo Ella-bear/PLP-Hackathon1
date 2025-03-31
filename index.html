@@ -13,7 +13,7 @@
     <nav class="bg-white shadow-md fixed w-full z-10">
         <div class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold text-gray-800">Ella-bear</div>
+                <div class="text-2xl font-bold text-gray-800">Ella</div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="nav-link text-gray-600 hover:text-blue-500">Home</a>
                     <a href="#projects" class="nav-link text-gray-600 hover:text-blue-500">Projects</a>
@@ -155,13 +155,15 @@
                     <h3 class="text-2xl font-bold mb-4">Google</h3>
                     <h4 class="text-xl font-semibold mb-2">Web Developer</h4>
                     <p class="text-gray-700">
-                    Certified as a Google Web Developer with expertise in HTML, CSS, JavaScript, and modern frameworks. Skilled in responsive design, performance optimization, accessibility, and SEO best practices.
+                        Certified as a Google Web Developer with expertise in HTML, CSS, JavaScript, and modern frameworks. Skilled in responsive design, performance optimization, accessibility, and SEO best practices.
                     </p>
                     <div class="mt-4">
-                        <img id="certificateImage1" src="" alt="Certificate Image" class="w-full h-auto rounded-lg mb-4 hidden">
+                        <!-- Always display the certificate image -->
+                        <img id="certificateImage1" src="/images/Modern Vintage Certificate of Achievement.png" alt="Certificate Image" class="w-full h-auto rounded-lg mb-4">
+                        <!-- Optional: Allow users to upload a new image -->
                         <input type="file" id="uploadCertificate1" accept="image/*" class="hidden" onchange="uploadCertificateImage('certificateImage1', this)">
                         <button onclick="document.getElementById('uploadCertificate1').click()" class="text-blue-600 hover:underline">
-                            Upload Certificate Image
+                            Upload New Certificate Image
                         </button>
                     </div>
                 </div>
@@ -171,10 +173,12 @@
                     <h3 class="text-2xl font-bold mb-4">IBM</h3>
                     <h4 class="text-xl font-semibold mb-2">Software Developer</h4>
                     <p class="text-gray-700">
-                        Certified as an IBM Software Developer with expertise in Python programming. Proficient in developing scalable applications, data structures, algorithms, and integrating AI/ML solutions. Skilled in backend development, API design, and cloud-based deployment using IBM Cloud technologies
+                        Certified as an IBM Software Developer with expertise in Python programming. Proficient in developing scalable applications, data structures, algorithms, and integrating AI/ML solutions. Skilled in backend development, API design, and cloud-based deployment using IBM Cloud technologies.
                     </p>
                     <div class="mt-4">
-                        <img id="certificateImage2" src="" alt="Certificate Image" class="w-full h-auto rounded-lg mb-4 hidden">
+                        <!-- Always display the certificate image -->
+                        <img id="certificateImage2" src="/images/Untitled.png" alt="IBM Certificate Image" class="w-full h-auto rounded-lg mb-4">
+                        <!-- Optional: Allow users to upload a new image -->
                         <input type="file" id="uploadCertificate2" accept="image/*" class="hidden" onchange="uploadCertificateImage('certificateImage2', this)">
                         <button onclick="document.getElementById('uploadCertificate2').click()" class="text-blue-600 hover:underline">
                             Upload Certificate Image
