@@ -11,3 +11,9 @@ html {
 .project-card:hover {
     transform: translateY(-5px);
 }
+.profile-image-container {
+    background-image: url('your-image-path.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

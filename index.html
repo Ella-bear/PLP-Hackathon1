@@ -1,378 +1,412 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sheila Muriuki - Full Stack Developer</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="bg-gray-100 font-sans">
-        <!-- Navigation -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheila Wambui - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-800">Ella-bear</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-600 hover:text-blue-500">Home</a>
+                    <a href="#projects" class="nav-link text-gray-600 hover:text-blue-500">Projects</a>
+                    <a href="#skills" class="nav-link text-gray-600 hover:text-blue-500">Skills</a>
+                    <a href="#certificates" class="nav-link text-gray-600 hover:text-blue-500">Certificates</a>
+                    <a href="#about" class="nav-link text-gray-600 hover:text-blue-500">About</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-500">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-500 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6 bg-white">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">I'm Ella,</h1>
+                <h2 class="text-5xl md:text-7xl font-bold text-blue-600 mb-6">Full Stack Developer</h2>
+                <blockquote class="text-lg md:text-xl text-gray-700 mb-8 border-l-4 border-blue-500 pl-4">
+                    A DEVELOPER THAT DELIVERS RESULTS.
+                </blockquote>
+                <div class="mt-8">
+                    <a href="#projects" class="text-blue-600 hover:underline flex items-center">
+                        See My Projects <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="bg-gray-200 w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center">
+                    <span class="text-gray-500 text-lg">Profile Image</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <nav class="bg-white shadow-md fixed w-full z-10">
-            <div class="container mx-auto px-6 py-3">
-                <div class="flex justify-between items-center">
-                    <div class="text-2xl font-bold text-gray-800">Sheila</div>
-                    <div class="hidden md:flex space-x-8">
-                        <a href="#home" class="nav-link text-gray-600 hover:text-blue-500">Home</a>
-                        <a href="#projects" class="nav-link text-gray-600 hover:text-blue-500">Projects</a>
-                        <a href="#skills" class="nav-link text-gray-600 hover:text-blue-500">Skills</a>
-                        <a href="#certificates" class="nav-link text-gray-600 hover:text-blue-500">Certificates</a>
-                        <a href="#about" class="nav-link text-gray-600 hover:text-blue-500">About</a>
-                        <a href="#contact" class="nav-link text-gray-600 hover:text-blue-500">Contact</a>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-100">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-12 text-center">My Projects</h1>
+            <p class="text-xl text-center mb-16 text-gray-700">Here are some of my software development projects</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Coffe-odering-app</h3>
+                        <span class="inline-block bg-red-200 text-red-800 text-sm px-3 py-1 rounded-full mb-4">Abandoned</span>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Javascript</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Python</span>
+                        </div>
+                        <a href="https://github.com/Ella-bear/Coffee-app" target="_blank" class="text-blue-600 hover:underline flex items-center">
+                            Details <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
                     </div>
-                    <div class="md:hidden">
-                        <button class="text-gray-500 focus:outline-none">
-                            <i class="fas fa-bars text-2xl"></i>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Qwiji </h3>
+                        <span class="inline-block bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded-full mb-4">In Development</span>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Django</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Python</span>
+                        </div>
+                        <a href="https://github.com/Ella-bear/qwiji" target="_blank" class="text-blue-600 hover:underline flex items-center">
+                            Details <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Online-grocery-Store</h3>
+                        <span class="inline-block bg-purple-200 text-purple-800 text-sm px-3 py-1 rounded-full mb-4">Completed</span>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Php</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">HTML & CSS</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">BootStrap 5</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://github.com/muriuki92/cestas-trial" target="_blank" class="text-blue-600 hover:underline flex items-center">
+                                Details <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-white">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4 text-center">My Skills</h1>
+            <p class="text-xl text-center mb-16 text-gray-700">Technologies and languages I work with</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Skill 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">JavaScript</h3>
+                    <p class="text-gray-700">Web development, interactive features, DOM manipulation</p>
+                </div>
+            
+                <!-- Skill 3-->
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">HTML/CSS</h3>
+                    <p class="text-gray-700">Responsive design, modern layouts, animations</p>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Python</h3>
+                    <p class="text-gray-700">Automation, Software development, AI development </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20 px-6 bg-gray-100">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4 text-center">My Certificates</h1>
+            <p class="text-xl text-center mb-16 text-gray-700">Professional qualifications and achievements</p>
+            
+            <div class="max-w-3xl mx-auto space-y-8">
+                <!-- Certificate 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">Google</h3>
+                    <h4 class="text-xl font-semibold mb-2">Web Developer</h4>
+                    <p class="text-gray-700">
+                        Oyun ve Uygulama Akademisi kapsamında 03 - 04 Şubat 2024 tarihleri arasında gerçekleştirilen "Sürdürülebilir Kalkınma Hedeflerine Yapay Zeka Destekli Çözümler" temalı ideathona takım ile birlikte katılım sağlamıştır.
+                    </p>
+                    <div class="mt-4">
+                        <img id="certificateImage1" src="" alt="Certificate Image" class="w-full h-auto rounded-lg mb-4 hidden">
+                        <input type="file" id="uploadCertificate1" accept="image/*" class="hidden" onchange="uploadCertificateImage('certificateImage1', this)">
+                        <button onclick="document.getElementById('uploadCertificate1').click()" class="text-blue-600 hover:underline">
+                            Upload Certificate Image
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Certificate 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4">IBM</h3>
+                    <h4 class="text-xl font-semibold mb-2">Software Developer</h4>
+                    <p class="text-gray-700">
+                        Oyun ve Uygulama Akademisi kapsamında 03 - 04 Şubat 2024 tarihleri arasında gerçekleştirilen "Sürdürülebilir Kalkınma Hedeflerine Yapay Zeka Destekli Çözümler" temalı ideathona takım ile birlikte katılım sağlamıştır.
+                    </p>
+                    <div class="mt-4">
+                        <img id="certificateImage2" src="" alt="Certificate Image" class="w-full h-auto rounded-lg mb-4 hidden">
+                        <input type="file" id="uploadCertificate2" accept="image/*" class="hidden" onchange="uploadCertificateImage('certificateImage2', this)">
+                        <button onclick="document.getElementById('uploadCertificate2').click()" class="text-blue-600 hover:underline">
+                            Upload Certificate Image
                         </button>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+    </section>
 
-        <!-- Hero Section -->
-        <section id="home" class="pt-32 pb-20 px-6 bg-white">
-            <div class="container mx-auto flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-4">I'm Ella,</h1>
-                    <h2 class="text-5xl md:text-7xl font-bold text-blue-600 mb-6">Full Stack Developer</h2>
-                    <blockquote class="text-lg md:text-xl text-gray-700 mb-8 border-l-4 border-blue-500 pl-4">
-                        A DEVELOPER THAT DELIVERS RESULTS.
-                    </blockquote>
-                    <div class="mt-8">
-                        <a href="#projects" class="text-blue-600 hover:underline flex items-center">
-                            See My Projects <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                    </div>
+    <!-- Upload Form Modal -->
+    <div id="uploadModal" class="hidden fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+            <h2 class="text-2xl font-bold mb-4">Upload Certificate</h2>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label for="certificate-title" class="block text-gray-700 mb-2">Certificate Title</label>
+                    <input type="text" id="certificate-title" name="certificate-title" placeholder="Enter certificate title" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="bg-gray-200 w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center">
-                        <span class="text-gray-500 text-lg">Profile Image</span>
-                    </div>
+                <div class="mb-4">
+                    <label for="certificate-image" class="block text-gray-700 mb-2">Upload Image</label>
+                    <input type="file" id="certificate-image" name="certificate-image" accept="image/*" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
-            </div>
-        </section>
+                <div class="flex justify-end space-x-4">
+                    <button type="button" onclick="closeUploadForm()" class="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600">Cancel</button>
+                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 px-6 bg-gray-100">
-            <div class="container mx-auto">
-                <h1 class="text-4xl font-bold mb-12 text-center">My Projects</h1>
-                <p class="text-xl text-center mb-16 text-gray-700">Here are some of my software development projects</p>
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-4xl font-bold mb-4 text-center">About Me</h1>
+            <p class="text-xl text-center mb-8 text-gray-700">Getting to know Ella</p>
+            
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <p class="text-lg mb-6">
+                    I'm Ella, a 20-year-old software developer whose passion for software development was shaped by my early experiences with programming.  My journey in programming started early, and through rigorous training programs like IBM,I’ve refined my expertise in AI, machine learning, and software engineering.By developing projects using PyTorch and Python, I bring my imagination to life in the software world. My goal is to create applications that provide users with an unforgettable experience, and I have big dreams in this field. If you're interested in collaborating on this journey, please feel free to reach out to me.
+                </p>
                 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Project 1 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold mb-2">Coffe-odering-app</h3>
-                            <span class="inline-block bg-red-200 text-red-800 text-sm px-3 py-1 rounded-full mb-4">Abandoned</span>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Javascript</span>
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Python</span>
-                            </div>
-                            <a href="https://github.com/Ella-bear/Coffee-app" target="_blank" class="text-blue-600 hover:underline flex items-center">
-                                Details <i class="fas fa-arrow-right ml-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 2 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold mb-2">Qwiji </h3>
-                            <span class="inline-block bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded-full mb-4">In Development</span>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Django</span>
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Python</span>
-                            </div>
-                            <a href="https://github.com/Ella-bear/qwiji" target="_blank" class="text-blue-600 hover:underline flex items-center">
-                                Details <i class="fas fa-arrow-right ml-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 3 -->
-                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden">
-                        <div class="p-6">
-                            <h3 class="text-2xl font-bold mb-2">Online-grocery-Store</h3>
-                            <span class="inline-block bg-green-200 text-green-800 text-sm px-3 py-1 rounded-full mb-4">Completed</span>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">Php</span>
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">JavaScript</span>
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">HTML & CSS</span>
-                                <span class="bg-gray-200 text-gray-800 text-sm px-3 py-1 rounded-full">BootStrap 5</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <a href="https://github.com/muriuki92/cestas-trial" target="_blank" class="text-blue-600 hover:underline flex items-center">
-                                    Details <i class="fas fa-arrow-right ml-2"></i>
-                                </a>
-                              
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="py-20 px-6 bg-white">
-            <div class="container mx-auto">
-                <h1 class="text-4xl font-bold mb-4 text-center">My Skills</h1>
-                <p class="text-xl text-center mb-16 text-gray-700">Technologies and languages I work with</p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    
-                    <!-- Skill 2 -->
-                    <div class="bg-gray-100 p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4">JavaScript</h3>
-                        <p class="text-gray-700">Web development, interactive features, DOM manipulation</p>
-                    </div>
-                
-                    <!-- Skill 3-->
-                    <div class="bg-gray-100 p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4">HTML/CSS</h3>
-                        <p class="text-gray-700">Responsive design, modern layouts, animations</p>
-                    </div>
-                    
-                    <!-- Skill 4 -->
-                    <div class="bg-gray-100 p-6 rounded-lg">
-                        <h3 class="text-2xl font-bold mb-4">Python</h3>
-                        <p class="text-gray-700">Automation, Software development, AI development </p>
-                    </div>
-                    
-                  
-                </div>
-            </div>
-        </section>
-
-        <!-- Certificates Section -->
-        <section id="certificates" class="py-20 px-6 bg-gray-100">
-            <div class="container mx-auto">
-                <h1 class="text-4xl font-bold mb-4 text-center">My Certificates</h1>
-                <p class="text-xl text-center mb-16 text-gray-700">Professional qualifications and achievements</p>
-                
-                <div class="max-w-3xl mx-auto space-y-8">
-                    <!-- Certificate 1 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-bold mb-4">Google</h3>
-                        <ul class="list-disc pl-6 space-y-2">
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 border-b pb-2">Educational Background</h3>
+                        <ul class="space-y-4">
                             <li>
-                                <span class="font-semibold">Oyun ve Uygulama Akademisi</span><br>
-                                <span class="text-gray-700">EKENŞİKLER HASTI</span><br>
-                                <span class="text-gray-500">TARİH</span>
+                                <h4 class="font-semibold">Zalego Academy</h4>
+                                <p class="text-gray-700">Completed comprehensive web development program</p>
+                                <p class="text-sm text-gray-500">2021</p>
+                            </li>
+                            <li>
+                                <h4 class="font-semibold">St.Paul University</h4>
+                                <p class="text-gray-700">Degree in Computer Science</p>
+                                <p class="text-sm text-gray-500">2023 - Present</p>
+                            </li>
+                            <li>
+                                <h4 class="font-semibold">Power Learn Project Africa</h4>
+                                <p class="text-gray-700">Software Engineering</p>
+                                <p class="text-sm text-gray-500">2025 - present</p>
                             </li>
                         </ul>
                     </div>
                     
-                    <!-- Certificate 2 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-bold mb-4">IDEATHON KATILIM SERTİFİKASI</h3>
-                        <h4 class="text-xl font-semibold mb-2">Enes Hacısağır</h4>
-                        <p class="text-gray-700">
-                            Oyun ve Uygulama Akademisi kapsamında 03 - 04 Şubat 2024 tarihleri arasında gerçekleştirilen "Sürdürülebilir Kalkınma Hedeflerine Yapay Zeka Destekli Çözümler" temalı ideathona takım ile birlikte katılım sağlamıştır.
-                        </p>
-                    </div>
-                    
-                    <!-- Certificate 3 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-bold mb-4">Google</h3>
-                        <ul class="list-disc pl-6 space-y-2">
-                            <li>
-                                <span class="font-semibold">Google Project Management Certificate</span><br>
-                                <span class="text-gray-700">Certificate of Completion</span>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 border-b pb-2">Interests</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-brain text-blue-500 mt-1 mr-3"></i>
+                                <span>Software Development</span>
+                            </li>
+
+                            <li class="flex items-start">
+                                <i class="fas fa-code text-blue-500 mt-1 mr-3"></i>
+                                <span>Open source contributions and developer communities</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-chart-line text-blue-500 mt-1 mr-3"></i>
+                                <span>Emerging technologies in the AI industry</span>
                             </li>
                         </ul>
                     </div>
-                    
-                    <!-- Certificate 4 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-bold mb-4">coursera</h3>
-                        <!-- Add coursera certificate details here -->
-                    </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="py-20 px-6 bg-white">
-            <div class="container mx-auto max-w-4xl">
-                <h1 class="text-4xl font-bold mb-4 text-center">About Me</h1>
-                <p class="text-xl text-center mb-8 text-gray-700">Getting to know Ella</p>
                 
-                <div class="bg-gray-100 p-8 rounded-lg">
-                    <p class="text-lg mb-6">
-                        I'm Ella, a 20-year-old software developer whose passion for software development was shaped by my early experiences with programming.  My journey in programming started early, and through rigorous training programs like IBM,I’ve refined my expertise in AI, machine learning, and software engineering.By developing projects using PyTorch and Python, I bring my imagination to life in the software world. My goal is to create applications that provide users with an unforgettable experience, and I have big dreams in this field. If you're interested in collaborating on this journey, please feel free to reach out to me.
-                    </p>
-                    
-                    <div class="grid md:grid-cols-2 gap-8 mb-8">
-                        <div>
-                            <h3 class="text-xl font-bold mb-4 border-b pb-2">Educational Background</h3>
-                            <ul class="space-y-4">
-                                <li>
-                                    <h4 class="font-semibold">Zalego Academy</h4>
-                                    <p class="text-gray-700">Completed comprehensive web development program</p>
-                                    <p class="text-sm text-gray-500">2021</p>
-                                </li>
-                                <li>
-                                    <h4 class="font-semibold">St.Paul University</h4>
-                                    <p class="text-gray-700">Degree in Computer Science</p>
-                                    <p class="text-sm text-gray-500">2023 - Present</p>
-                                </li>
-                                <li>
-                                    <h4 class="font-semibold">Power Learn Project Africa</h4>
-                                    <p class="text-gray-700">Software Engineering</p>
-                                    <p class="text-sm text-gray-500">2025 - present</p>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div>
-                            <h3 class="text-xl font-bold mb-4 border-b pb-2">Interests</h3>
-                            <ul class="space-y-3">
-                                <li class="flex items-start">
-                                    <i class="fas fa-brain text-blue-500 mt-1 mr-3"></i>
-                                    <span>Software Development</span>
-                                </li>
-
-                                <li class="flex items-start">
-                                    <i class="fas fa-code text-blue-500 mt-1 mr-3"></i>
-                                    <span>Open source contributions and developer communities</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-chart-line text-blue-500 mt-1 mr-3"></i>
-                                    <span>Emerging technologies in the AI industry</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="space-y-4 mb-8">
-                        <div>
-                            <span class="font-bold">Specialization</span><br>
-                            Focusing on AI development with Python
-                        </div>
-                    </div>
-                    
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 inline-block">
-                            Contact Me
-                        </a>
-                        <a href="path/to/your-cv.pdf" download="Enes_Hacisagir_CV.pdf" class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition duration-300 inline-flex items-center">
-                            <i class="fas fa-download mr-2"></i> Download CV
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="py-20 px-6 bg-gray-100">
-            <div class="container mx-auto max-w-4xl">
-                <h1 class="text-4xl font-bold mb-4 text-center">Contact Me</h1>
-                <p class="text-xl text-center mb-12 text-gray-700">Let's work together on your next project</p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-4 mb-8">
                     <div>
-                        <div class="mb-8">
-                            <h3 class="text-xl font-bold mb-4">Email</h3>
-                            <p class="text-gray-700">ella@gmail.com</p>
-                        </div>
-                        
-                        <div class="mb-8">
-                            <h3 class="text-xl font-bold mb-4">Location</h3>
-                            <p class="text-gray-700">Nairobi, Kenya</p>
-                        </div>
-                        
-                        <div>
-                            <h3 class="text-xl font-bold mb-4">Social</h3>
-                            <div class="flex space-x-4">
-                                <a href="https://instagram.com" target="_blank" class="text-gray-700 hover:text-pink-600 text-2xl">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="https://linkedin.com" target="_blank" class="text-gray-700 hover:text-blue-700 text-2xl">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                                <a href="https://github.com" target="_blank" class="text-gray-700 hover:text-gray-900 text-2xl">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://spotify.com" target="_blank" class="text-gray-700 hover:text-green-500 text-2xl">
-                                    <i class="fab fa-spotify"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <span class="font-bold">Specialization</span><br>
+                        Focusing on AI development with Python
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 inline-block">
+                        Contact Me
+                    </a>
+                    <a href="path/to/your-cv.pdf" download="Enes_Hacisagir_CV.pdf" class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition duration-300 inline-flex items-center">
+                        <i class="fas fa-download mr-2"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-gray-100">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-4xl font-bold mb-4 text-center">Contact Me</h1>
+            <p class="text-xl text-center mb-12 text-gray-700">Let's work together on your next project</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4">Email</h3>
+                        <p class="text-gray-700">ella@gmail.com</p>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4">Location</h3>
+                        <p class="text-gray-700">Nairobi, Kenya</p>
                     </div>
                     
                     <div>
-                        <form class="bg-white p-6 rounded-lg shadow-md">
-                            <div class="mb-4">
-                                <label for="name" class="block text-gray-700 mb-2">Name</label>
-                                <input type="text" id="name" placeholder="Your name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="email" class="block text-gray-700 mb-2">Email</label>
-                                <input type="email" id="email" placeholder="Your email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="message" class="block text-gray-700 mb-2">Message</label>
-                                <textarea id="message" rows="4" placeholder="Your message" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-                            </div>
-                            
-                            <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 w-full">
-                                Send Message
-                            </button>
-                        </form>
+                        <h3 class="text-xl font-bold mb-4">Social</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://instagram.com" target="_blank" class="text-gray-700 hover:text-pink-600 text-2xl">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="text-gray-700 hover:text-blue-700 text-2xl">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-gray-700 hover:text-gray-900 text-2xl">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://spotify.com" target="_blank" class="text-gray-700 hover:text-green-500 text-2xl">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="bg-gray-800 text-white py-8">
-            <div class="container mx-auto px-6 text-center">
-                <p>&copy; 2025 Ella. All rights reserved.</p>
-            </div>
-        </footer>
-
-        <script>
-            // Highlight active nav link on scroll
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('.nav-link');
-
-            window.addEventListener('scroll', () => {
-                let current = '';
                 
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.clientHeight;
-                    
-                    if (pageYOffset >= (sectionTop - 100)) {
-                        current = section.getAttribute('id');
-                    }
-                });
+                <div>
+                    <form class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" placeholder="Your name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" placeholder="Your email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 mb-2">Message</label>
+                            <textarea id="message" rows="4" placeholder="Your message" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 w-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Ella. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Highlight active nav link on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
                 
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('href') === `#${current}`) {
-                        link.classList.add('active');
-                    }
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
                 });
             });
+        });
 
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        </script>
-    </body>
-    </html>    
-    
+        // Open the upload form modal
+        function openUploadForm() {
+            document.getElementById('uploadModal').classList.remove('hidden');
+        }
+
+        // Close the upload form modal
+        function closeUploadForm() {
+            document.getElementById('uploadModal').classList.add('hidden');
+        }
+
+        // Function to upload and display the certificate image
+        function uploadCertificateImage(imageId, input) {
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const image = document.getElementById(imageId);
+                    image.src = e.target.result;
+                    image.classList.remove('hidden'); // Show the image
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+</body>
+</html>
